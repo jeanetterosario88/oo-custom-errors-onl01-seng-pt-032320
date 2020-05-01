@@ -6,7 +6,7 @@
       end
      
       def get_married(person)
-        self.partner = personsubmi
+        self.partner = person
         if person.class != Person
           begin
             raise PartnerError
